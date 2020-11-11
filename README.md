@@ -32,3 +32,9 @@ You can run the backend by navigating to ***/Backend*** and running ***node inde
 You can test the backend by downloading postman from [here](https://www.postman.com/downloads/), importing the included testing collection in 
 ***/Testing***, and running it. You can explore the endpoints included in the test. The endpoints are configured to **localhost:8000**
 
+
+## Fronted usage
+
+
+Navigate to the frontend folder, run ```npm install``` to install dependencies, and then run ```expo start``` to start the application. You can then scan the barcode that appeared on the screen using the **Expo Client** application (available for Android and iOS), and it will run the application locally on your phone.
+
