@@ -1,0 +1,9 @@
+The server-side code for this application is hosted on a server in germany. In order to run the tests,
+you need to download Postman: https://www.postman.com/downloads/
+
+
+After downloading Postman, launch it and import the file named "251.postman_collection", which will contain all the necessary tests.
+Run the tests, and wait for the results to appear. They should be successful.
+
+Attached also is a file named "251.postman_test_run_", which includes the results of a previous test made to the same endpoints in germany.
+

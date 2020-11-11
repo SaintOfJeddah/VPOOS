@@ -1,0 +1,204 @@
+{
+	"id": "c9aea718-b697-4e8a-9e48-46d086596efa",
+	"name": "251",
+	"timestamp": "2020-11-11T13:39:32.858Z",
+	"collection_id": "cee61747-678d-4d7d-954a-e8db49a853a3",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d446f83a-b183-4019-8464-b24b2069a813",
+			"name": "/getParts",
+			"url": "http://5.189.157.144:8000/getParts",
+			"time": 354,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				354
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "06206499-3cca-47dc-b1df-921fb186e63a",
+			"name": "/addPart",
+			"url": "http://5.189.157.144:8000/addPart",
+			"time": 137,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6b95308f-cc9d-4116-9cdd-0b819aecaf1b",
+			"name": "/getPart",
+			"url": "http://5.189.157.144:8000/getPart",
+			"time": 251,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				251
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5c8148e2-9ab7-43d7-909a-13c58d2216e0",
+			"name": "/login",
+			"url": "http://5.189.157.144:8000/login",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "41d7c46d-f531-4d35-a909-24f4d85b3dea",
+			"name": "/carMake",
+			"url": "http://5.189.157.144:8000/carMake",
+			"time": 101,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				101
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4cc5ae32-95ea-4d26-bac8-bb4e00ac7587",
+			"name": "/getParts",
+			"url": "http://5.189.157.144:8000/getParts",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1052,
+	"collection": {
+		"requests": [
+			{
+				"id": "d446f83a-b183-4019-8464-b24b2069a813",
+				"method": "GET"
+			},
+			{
+				"id": "06206499-3cca-47dc-b1df-921fb186e63a",
+				"method": "POST"
+			},
+			{
+				"id": "6b95308f-cc9d-4116-9cdd-0b819aecaf1b",
+				"method": "GET"
+			},
+			{
+				"id": "5c8148e2-9ab7-43d7-909a-13c58d2216e0",
+				"method": "POST"
+			},
+			{
+				"id": "41d7c46d-f531-4d35-a909-24f4d85b3dea",
+				"method": "GET"
+			},
+			{
+				"id": "4cc5ae32-95ea-4d26-bac8-bb4e00ac7587",
+				"method": "POST"
+			}
+		]
+	}
+}
