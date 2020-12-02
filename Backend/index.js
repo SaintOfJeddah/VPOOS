@@ -48,7 +48,7 @@ let dbConnect = async function () {
         db.sync();
         console.log(parts == db.models.parts);
         console.log(users == db.models.users);
-        //await users.create({ id: 1845361, password: "password" });
+        //await users.create({ id: 1, password: "password" });
       }
     );
     console.log("Connection has been established successfully.");
